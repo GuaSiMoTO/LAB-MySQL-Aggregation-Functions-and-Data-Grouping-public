@@ -2,6 +2,12 @@
 
 # LAB-SQL-Aggregation-Functions-and-Data-Grouping
 
+## Story
+
+You are an exceptional database manager who, after learning the truth about your father's death, instead of remaining with the rebels, is driven by a desire for understanding and a need to align with your newfound family history. Darth Vader, recognizing your talents, sees an opportunity to bolster the Empire's technological edge.
+
+To prove your loyalty and skills to Darth Vader, you are tasked with managing and optimizing the Death Star's database. The database is comprehensive, encompassing all aspects of the Death Star's operations, from weaponry to resource management.
+
 ## Requirements
 
 - [Learn how to fork this repo](https://guides.github.com/activities/forking/)
@@ -14,7 +20,11 @@
 
 ## Intructions
 
-Write and test the queries needed to solve each of the following questions. All of them can be resolved in a single query by using join queries.
+<img src="https://github.com/user-attachments/assets/eebd76d6-bf9a-41ea-9835-bd2f16136060" alt="Descripción de la imagen" height="1100" width="400" align="right">
+
+The Death Star project is a massive undertaking requiring meticulous resource management and data aggregation. The Empire values efficiency and precision, making your role critical.
+
+To demonstrate your capabilities, you are given a set of database exercises:
 
 1. Use the "COUNT()" function to find the total number of events in the database.
 
@@ -65,6 +75,7 @@ Write and test the queries needed to solve each of the following questions. All 
 
    // In case the query fails, please explain in detail in the answer why the query could not be performed. 
 
+Your contributions to the Empire's technological prowess have far-reaching effects. The Death Star, with optimized resource management and operational efficiency, becomes a more formidable tool of the Empire. However, this also means that the galaxy faces greater oppression under the Empire's rule. The Rebel Alliance is forced to develop more sophisticated tactics to counter the enhanced capabilities of the Death Star.
 
 ## Deliverables
 
