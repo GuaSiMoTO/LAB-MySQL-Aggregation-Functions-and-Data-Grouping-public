@@ -2,12 +2,6 @@
 
 # LAB-SQL-Aggregation-Functions-and-Data-Grouping
 
-## Story
-
-You are an exceptional database manager who, after learning the truth about your father's death, instead of remaining with the rebels, is driven by a desire for understanding and a need to align with your newfound family history. Darth Vader, recognizing your talents, sees an opportunity to bolster the Empire's technological edge.
-
-To prove your loyalty and skills to Darth Vader, you are tasked with managing and optimizing the Death Star's database. The database is comprehensive, encompassing all aspects of the Death Star's operations, from weaponry to resource management.
-
 ## Requirements
 
 - [Learn how to fork this repo](https://guides.github.com/activities/forking/)
@@ -16,7 +10,11 @@ To prove your loyalty and skills to Darth Vader, you are tasked with managing an
 - Have Workbench installed
 - Having DeathStarDb already imported in your database
 
-## Importing the Database
+## Story
+
+You are an exceptional database manager who, after learning the truth about your father's death, instead of remaining with the rebels, is driven by a desire for understanding and a need to align with your newfound family history. Darth Vader, recognizing your talents, sees an opportunity to bolster the Empire's technological edge.
+
+To prove your loyalty and skills to Darth Vader, you are tasked with managing and optimizing the Death Star's database. The database is comprehensive, encompassing all aspects of the Death Star's operations, from weaponry to resource management.
 
 ## Intructions
 
@@ -25,6 +23,8 @@ To prove your loyalty and skills to Darth Vader, you are tasked with managing an
 The Death Star project is a massive undertaking requiring meticulous resource management and data aggregation. The Empire values efficiency and precision, making your role critical.
 
 To demonstrate your capabilities, you are given a set of database exercises:
+
+0. Importing the Database
 
 1. Use the "COUNT()" function to find the total number of events in the database.
 
