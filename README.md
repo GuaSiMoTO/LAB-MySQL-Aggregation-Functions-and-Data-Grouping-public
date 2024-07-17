@@ -2,36 +2,15 @@
 
 # LAB-SQL-Aggregation-Functions-and-Data-Grouping
 
-## Introduction
-
-In today's lessons we learned in depth about SQL aggregate queries, and we are going to practice all of them in Sakila, one of MySQL example databases.
-
 ## Requirements
 
 - [Learn how to fork this repo](https://guides.github.com/activities/forking/)
 - Clone this repo into your `code/labs` folder
 - Have MySQL installed
-- Have TablePlus installed
-- Having Sakila already imported in your database
-
-## Sakila
-
-The goal of this lab is for you to practice querying a real database, and getting used to more complex queries than what we have used until now. To do that, we are going to use a shorter version of **Sakila**, an example database provided by MySQL that stores all information related to managing a small Movie Rental shop.
-
-The **Sakila** sample database was initially developed to provide a standard schema that can be used for examples in books, tutorials, articles, samples, and so forth. [More information here](https://dev.mysql.com/doc/sakila/en/sakila-introduction.html)
-
-## Before you start
-
-Before querying any database it is first important to understand how it has been designed. MySQL provides the Diagram with the design and information on each table. You can read them here:
-
-- [Database Schema](https://dev.mysql.com/doc/sakila/en/sakila-structure.html)
-- [Tables](https://dev.mysql.com/doc/sakila/en/sakila-structure-tables.html)
-
-Read them and familiarize yourself with the database.
+- Have Workbench installed
+- Having DeathStarDb already imported in your database
 
 ## Importing the Database
-
-Instructions to import the database were detailed [in previous labs](https://github.com/rebootacademy-labs/LAB-SQL-Queries).
 
 ## Intructions
 
@@ -83,6 +62,7 @@ Write and test the queries needed to solve each of the following questions. All 
 ## Bonus 
 
 1. Display the number of events that involved each character.
+
    // In case the query fails, please explain in detail in the answer why the query could not be performed. 
 
 
