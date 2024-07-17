@@ -39,45 +39,52 @@ Write and test the queries needed to solve each of the following questions. All 
 
 1. Use the "COUNT()" function to find the total number of events in the database.
 
-2. Use the "AVG()" function to display the average cost per unit of resources in the economy.
+2. Use the "MAX()" function to find the maximum power level for all weaponry.
 
-3. Use the "SUM()" function to calculate the total amount of resources in the economy.
+3. Use the "MIN()" function to display the minimum quantity of items in storage.
 
-4. Use the "MAX()" function to find the maximum power level for all weaponry.
+4. Calculate the average quantity of items in storage.
 
-5. Use the "MIN()" function to display the minimum quantity of items in storage.
+5. Use the "AVG()" function to display the average cost per unit of resources in the economy.
 
-6. Calculate the average quantity of items in storage.
+6. Calculate the average power level of weaponry for each type.
 
-7. Find the number of missions led by each leader using "COUNT()" and "GROUP BY".
+7. Use the "SUM()" function to calculate the total amount of resources in the economy.
 
-8. Display the total amount of each resource type in the economy.
+8. Find the number of missions led by each leader using "COUNT()" and "GROUP BY".
 
-9. Calculate the average power level of weaponry for each type.
+9. Display the total amount of each resource type in the economy.
 
 10. Find the total amount of resources stored in each location.
 
-11. Display the number of events that occurred at each location.
+11. Calculate the average cost per unit for each resource type in the economy.
 
-12. Calculate the average cost per unit for each resource type in the economy.
+12. Find the total amount of resources managed by each storage location.
 
-13. Find the total amount of resources managed by each storage location.
+13. Display the number of events that occurred at each location.
 
-14. Display the number of events that involved each character.
+14. Display the number of missions that started in each month.
 
-15. Calculate the average power level of weaponry for each location.
+15. Calculate the average quantity of items in storage for each item type.
 
-16. Display the number of missions that started in each month.
+16. Calculate the average event duration for each type of mission.
 
-17. Calculate the average quantity of items in storage for each item type.
+17. Find the leaders with more than 3 missions using "HAVING".
 
-18. Display the number of events that occurred in each sector.
+18. Display the locations with an average quantity of items in storage greater than 100 using "HAVING".
 
-19. Calculate the average rental rate for each species.
+19. Calculate the total quantity of items in each locations and display only those locations with more than 5000 units using "HAVING".
 
-20. Display the number of events that involved each character in each sector.
+20. Find the resource types with a total cost greater than 100000 using "HAVING".
 
-21. Calculate the average event duration for each type of mission.
+21. Display the number of events that occurred at each location with more OR equal than 2 events using "HAVING".
+
+
+## Bonus 
+
+1. Display the number of events that involved each character.
+   // In case the query fails, please explain in detail in the answer why the query could not be performed. 
+
 
 ## Deliverables
 
