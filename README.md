@@ -18,7 +18,7 @@ To prove your loyalty and skills to Darth Vader, you are tasked with managing an
 
 ## Intructions
 
-<img src="https://github.com/user-attachments/assets/eebd76d6-bf9a-41ea-9835-bd2f16136060" alt="Descripción de la imagen" height="1100" width="400" align="right">
+<img src="https://github.com/user-attachments/assets/eebd76d6-bf9a-41ea-9835-bd2f16136060" alt="Descripción de la imagen" height="1300" width="400" align="right">
 
 The Death Star project is a massive undertaking requiring meticulous resource management and data aggregation. The Empire values efficiency and precision, making your role critical.
 
