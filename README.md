@@ -48,7 +48,7 @@ To demonstrate your capabilities, you are given a set of database exercises:
 
 11. Calculate the average cost per unit for each resource type in the economy.
 
-12. Find the total amount of resources managed by each storage location.
+12. Find the leaders with more than 3 missions using "HAVING".
 
 13. Display the number of events that occurred at each location.
 
@@ -58,7 +58,8 @@ To demonstrate your capabilities, you are given a set of database exercises:
 
 16. Calculate the average event duration for each type of mission.
 
-17. Find the leaders with more than 3 missions using "HAVING".
+17.  Find out how many different types of ships (by model) are manufactured by each manufacturer and calculate the total cargo capacity (sum of capacity) of all ships made by each manufacturer.
+
 
 18. Display the locations with an average quantity of items in storage greater than 100 using "HAVING".
 
