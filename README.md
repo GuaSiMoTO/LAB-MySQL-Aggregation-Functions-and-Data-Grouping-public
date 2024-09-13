@@ -56,10 +56,9 @@ To demonstrate your capabilities, you are given a set of database exercises:
 
 15. Calculate the average quantity of items in storage for each item type.
 
-16. Calculate the average event duration for each type of mission.
+16. Calculate the average mission event duration.
 
 17.  Find out how many different types of ships (by model) are manufactured by each manufacturer and calculate the total cargo capacity (sum of capacity) of all ships made by each manufacturer.
-
 
 18. Display the locations with an average quantity of items in storage greater than 100 using "HAVING".
 
