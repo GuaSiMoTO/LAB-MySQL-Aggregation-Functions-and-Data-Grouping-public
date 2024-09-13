@@ -64,9 +64,13 @@ To demonstrate your capabilities, you are given a set of database exercises:
 
 19. Calculate the total quantity of items in each locations and display only those locations with more than 5000 units using "HAVING".
 
-20. Find the resource types with a total cost greater than 100000 using "HAVING".
+20. Find the resource types with a total cost greater than 100000 .
 
-21. Display the number of events that occurred at each location with more OR equal than 2 events using "HAVING".
+21. Display the number of events that occurred at each location with more OR equal than 2 events.
+    
+22. Find the number of missions completed by each leader that started after the year 2020.
+
+23. Calculate the average power level of weaponry for each type, but only for weapons with a power level greater than 100.
 
 
 ## Bonus 
