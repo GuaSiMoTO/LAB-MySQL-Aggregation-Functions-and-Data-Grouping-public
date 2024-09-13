@@ -62,9 +62,9 @@ To demonstrate your capabilities, you are given a set of database exercises:
 
 18. Display the locations with an average quantity of items in storage greater than 100 using "HAVING".
 
-19. Calculate the total quantity of items in each locations and display only those locations with more than 5000 units using "HAVING".
+19. Calculate the total quantity of items in each locations and display only those locations with more than 500 units using "HAVING".
 
-20. Find the resource types with a total cost greater than 100000 .
+20. Find the resource types with a total cost greater than 10000.
 
 21. Display the number of events that occurred at each location with more OR equal than 2 events.
     
