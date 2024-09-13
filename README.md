@@ -70,7 +70,7 @@ To demonstrate your capabilities, you are given a set of database exercises:
     
 22. Find the number of missions completed by each leader that started after the year 0000-06-01.
 
-23. Calculate the average power level of weaponry for each type, but only for weapons with a power level greater than 100.
+23. Calculate the average power level of weaponry for each type, but only for weapons with a power level greater than 900.
 
 
 ## Bonus 
