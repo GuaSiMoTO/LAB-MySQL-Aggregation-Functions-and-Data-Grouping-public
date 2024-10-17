@@ -44,7 +44,7 @@ To demonstrate your capabilities, you are given a set of database exercises:
 
 9. Display the total amount of each resource type in the economy.
 
-10. Find the total amount of resources stored in each location.
+10. Find the total amount of resources in the storage.
 
 11. Calculate the average cost per unit for each resource type in the economy.
 
