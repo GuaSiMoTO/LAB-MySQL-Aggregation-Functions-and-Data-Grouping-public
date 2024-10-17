@@ -52,7 +52,7 @@ To demonstrate your capabilities, you are given a set of database exercises:
 
 13. Display the number of events that occurred at each location.
 
-14. Display the number of missions that started in each month.
+14. Display the number of missions that started in each month.   (You may need some info about DATE_FORMAT).
 
 15. Calculate the average quantity of items in storage for each item type.
 
