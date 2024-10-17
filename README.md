@@ -68,7 +68,7 @@ To demonstrate your capabilities, you are given a set of database exercises:
 
 21. Display the number of events that occurred at each location with more OR equal than 2 events.
     
-22. Find the number of missions completed by each leader that started after the year 0000-06-01.
+22. Find the number of missions completed by each leader that started after the date 0000-06-01.
 
 23. Calculate the average power level of weaponry for each type, but only for weapons with a power level greater than 900.
 
