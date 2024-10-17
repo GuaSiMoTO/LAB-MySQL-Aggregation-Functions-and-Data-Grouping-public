@@ -206,7 +206,7 @@ CREATE TABLE `Storage` (
 
 LOCK TABLES `Storage` WRITE;
 /*!40000 ALTER TABLE `Storage` DISABLE KEYS */;
-INSERT INTO `Storage` VALUES (1,'Hangar Bay','TIE Fighters',72,'2024-01-01'),(2,'Weapons Cache','Blaster Rifles',200,'2024-01-01'),(3,'Armory','Thermal Detonators',150,'2024-01-01'),(4,'Main Reactor Room','Kyber Crystals',500,'2024-01-01'),(5,'Cargo Hold','Proton Torpedoes',100,'2024-01-01'),(6,'Engineering Bay','Ion Cannons',20,'2024-01-01'),(7,'Supply Room','Med Kits',300,'2024-01-01'),(8,'Docking Bay','Repair Droids',50,'2024-01-01'),(9,'Officer\'s Quarters','Ration Packs',1000,'2024-01-01');
+INSERT INTO `Storage` VALUES (1,'Hangar Bay','TIE Fighters',72,'2024-01-01'),(2,'Weapons Cache','Blaster Rifles',200,'2024-01-01'),(3,'Armory','Thermal Detonators',150,'2024-01-01'),(4,'Main Reactor Room','Kyber Crystals',500,'2024-01-01'),(5,'Cargo Hold','Proton Torpedoes',100,'2024-01-01'),(6,'Engineering Bay','Ion Cannons',20,'2024-01-01'),(7,'Supply Room','Med Kits',300,'2024-01-01'),(8,'Docking Bay','Repair Droids',50,'2024-01-01'),(9,'Officer\'s Quarters','Ration Packs',1000,'2024-01-01'),(10,'Docking Bay','TIE Fighters',45,'2024-01-01');
 /*!40000 ALTER TABLE `Storage` ENABLE KEYS */;
 UNLOCK TABLES;
 
