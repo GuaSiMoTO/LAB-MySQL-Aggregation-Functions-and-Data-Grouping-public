@@ -1,0 +1,96 @@
+USE DeathStarDB;
+
+-- 1. Use the "COUNT()" function to find the total number of events in the database.
+SELECT count(*) AS total_events FROM Events;
+
+-- 2. Use the "MAX()" function to find the maximum power level for all weaponry.
+SELECT MAX(power_level) AS max_power_weapon FROM Weaponry;
+
+-- 3. Use the "MIN()" function to display the minimum quantity of items in storage.
+SELECT MIN(quantity) AS min_quantity FROM Storage; 
+
+-- 4. Calculate the average quantity of items in storage (dos maneras de obtener el promedio)
+SELECT AVG(quantity) AS AVG_quantity FROM Storage;
+SELECT SUM(quantity)/COUNT(quantity) AS AVG_quantity FROM Storage;
+
+-- 5. Use the "AVG()" function to display the average cost per unit of resources in the economy.
+SELECT AVG(cost_per_unit) AS AVG_cost_per_unit FROM Economy;
+
+
+-- 6. Calculate the average power level of weaponry for each type.
+SELECT type, AVG(power_level) AS AVG_power FROM Weaponry
+GROUP BY type;
+
+-- 7. Use the "SUM()" function to calculate the total amount of resources in the economy.
+SELECT SUM(amount) AS total_amount FROM Economy;
+
+-- 8. Find the number of missions led by each leader using "COUNT()" and "GROUP BY".
+SELECT leader, COUNT(mission_id) AS number_of_mission FROM Missions
+GROUP BY leader;
+
+-- 9. Display the total amount of each resource type in the economy.
+SELECT resource , SUM(amount) AS total_amount FROM Economy
+GROUP BY resource;
+
+-- 10. Find the total amount of resources in the storage.
+SELECT SUM(quantity) AS total_amount FROM Storage;
+
+
+-- 11. Calculate the average cost per unit for each resource type in the economy.
+SELECT resource , AVG(cost_per_unit) AS AVG_cost_per_resource FROM Economy 
+GROUP BY resource;
+
+-- 12. Find the leaders with more than 3 missions using "HAVING".
+SELECT leader, COUNT(name) AS numero_misiones FROM Missions 
+GROUP BY leader
+HAVING numero_misiones > 3;
+
+-- 13. Display the number of events that occurred at each location.
+SELECT location, COUNT(name) AS number_of_events FROM Events
+GROUP BY location;
+
+-- 14. Display the number of missions that started in each month. (You may need some info about DATE_FORMAT).
+SELECT DATE_FORMAT(start_date, '%Y-%m') AS mes, COUNT(*) AS numero_misiones
+FROM Missions
+GROUP BY mes
+ORDER BY mes DESC;
+
+-- 15. Calculate the average quantity of items in storage for each item type.
+SELECT item, AVG(quantity) AS AVG_quantity FROM Storage 
+GROUP BY item;
+-- 16. Calculate the average mission event duration.
+SELECT AVG(DATEDIFF(end_date, start_date)) AS event_duration FROM Missions;
+
+-- 17. Find out how many different types of ships (by model) are manufactured by each manufacturer and calculate the total cargo capacity (sum of capacity) of all ships made by each manufacturer.
+SELECT manufacturer, model, COUNT(model) AS amount_ships, SUM(capacity) AS total_capacity FROM Ships
+GROUP BY manufacturer, model
+ORDER BY manufacturer;
+
+-- 18. Display the locations with an average quantity of items in storage greater than 100 using "HAVING".
+SELECT location, AVG(quantity) AS AVG_quantity_items FROM Storage
+GROUP BY location
+HAVING AVG_quantity_items >100;
+
+-- 19. Calculate the total quantity of items in each locations and display only those locations with more than 500 units using "HAVING".
+SELECT location, SUM(quantity) AS total_quantity_items FROM Storage
+GROUP BY location
+HAVING quantity_items > 500;
+
+-- 20. Find the resource types with a total cost greater than 10000.
+SELECT resource, SUM(amount * cost_per_unit) AS total_cost FROM Economy
+GROUP BY resource
+HAVING total_cost > 10000;
+
+-- 21. Display the number of events that occurred at each location with more OR equal than 2 events.
+SELECT location, count(event_id) AS number_events FROM Events
+GROUP BY location
+HAVING number_events >= 2;
+
+-- 22. Find the number of missions completed by each leader that started after the date 0000-06-01.
+SELECT leader, COUNT(mission_id) AS missions_completed FROM Missions
+WHERE status = 'Completed' AND  start_date >'0000-06-01'
+GROUP BY leader;
+
+-- 23. Calculate the average power level of weaponry for each type, but only for weapons with a power level greater than 900.
+
+
