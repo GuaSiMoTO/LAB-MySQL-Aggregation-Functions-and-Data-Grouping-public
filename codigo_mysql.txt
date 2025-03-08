@@ -92,5 +92,18 @@ WHERE status = 'Completed' AND  start_date >'0000-06-01'
 GROUP BY leader;
 
 -- 23. Calculate the average power level of weaponry for each type, but only for weapons with a power level greater than 900.
+SELECT type, AVG(power_level) AS AVG_power_level FROM weaponry
+WHERE power_level > 900
+GROUp BY type;
 
+-- BONUS: Display the number of events that involved each character.
+-- No coindicen los nombres de lo campos eventos con la de missions
+SELECT leader, COUNT(name) AS number_of_events FROM Missions
+WHERE name IN (SELECT name FROM events)
+GROUP BY leader;
 
+-- Otra forma de relacionar los eventos con las missiones con LEFT JOIN, obteniendo mismo resultado por el mismo problema
+SELECT m.leader AS character_name, COUNT(e.name) AS number_of_events
+FROM Missions m
+LEFT JOIN events e ON m.name = e.name
+GROUP BY m.leader;
